@@ -6,6 +6,11 @@ spring:
     url: jdbc:postgresql://localhost:5432/assisthome
     username: assisthome
     password: assisthome_dev
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: none
 
 management:
   endpoints:
