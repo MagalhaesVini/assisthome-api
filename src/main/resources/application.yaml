@@ -1,3 +1,14 @@
 spring:
   application:
     name: assist-home-backend
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/assisthome
+    username: assisthome
+    password: assisthome_dev
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health
