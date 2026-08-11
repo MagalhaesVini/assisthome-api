@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres:17
+    container_name: assisthome-postgres
+    environment:
+      POSTGRES_DB: assisthome
+      POSTGRES_USER: assisthome
+      POSTGRES_PASSWORD: assisthome_dev
+    ports:
+      - "5432:5432"
+    volumes:
+      - assisthome-postgres-data:/var/lib/postgresql/data
+
+volumes:
+  assisthome-postgres-data:
