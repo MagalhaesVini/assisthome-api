@@ -1,4 +1,4 @@
-package com.assisthome;
+package br.com.assisthome;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
