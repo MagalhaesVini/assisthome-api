@@ -1,0 +1,2 @@
+-- Baseline inicial do banco AssistHome.
+-- Nenhuma tabela de aplicação criada nesta etapa.
