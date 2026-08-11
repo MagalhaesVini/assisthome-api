@@ -1,4 +1,4 @@
-package com.assisthome;
+package br.com.assisthome;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
